@@ -1,0 +1,22 @@
+fieldset {
+    background-color: rgb(39, 115, 168);
+}
+
+legend {
+    background-color: rgb(39, 115, 168);
+}
+
+.purple {
+    background-color: rgb(154, 19, 179);
+}
+
+.pink {
+    background-color: rgb(219, 9, 90);
+}
+
+ul {
+    list-style:none;
+    margin-left:25px;
+    padding-left:0;
+    }
+    

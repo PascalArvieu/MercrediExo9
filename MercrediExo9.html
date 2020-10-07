@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets9/styleExo9.css" />
+    <title>Exercice 9 formulaire </title>
+</head>
+
+<body>
+    <form method="post" action="traitement.php">
+        <fieldset>
+            <legend> Votre identité</legend>
+            <ol>
+                <li><label for="name"> Nom :</label>
+                    <input type="text" name="nom" id="nom" placeholder="Nom" />
+                </li>
+                <li><label for="surname">Prénom :</label>
+                    <input type="text" name="prénom" id="prénom" placeholder="Prénom" />
+                </li>
+                <li><label for="email"> Adresse mail :</label>
+                    <input type="text" name="mail" id="mail" placeholder="Adresse mail" />
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset class="purple">
+                <legend class="purple">Adresse de livraison</legend>
+                <ol>
+                    <li><label for="address"> Adresse :</label>
+                        <textarea name="address" id="address" cols="15" rows="5"></textarea>
+                    </li>
+                    <li><label for="postcode">Code postal : </label>
+                        <input type="text" name="postcode" id="postcode" placeholder="Code Postal">
+                    </li>
+                    <li><label for="city">Ville : </label>
+                        <input type="text" name="city" id="city" placeholder="Ville">
+                    </li>
+                </ol>
+            </div>
+        </fieldset class="pink">
+
+        <fieldset class="pink">
+                <legend class="pink">Informations de règlement</legend>
+                <ol>
+                    <li>Type de carte bancaire :
+                        <ul>
+                            <li><input type="checkbox"> Visa</li>
+                            <li><input type="checkbox">Mastercard</li>
+                        </ul>
+                    </li>
+                    <li><label for="card_number">Numéro de carte :</label>
+                        <input type="text" name="cardNumber" id="cardNumber" placeholder="Numéro de carte">
+                    </li>
+
+                    <li><label for="password"> Code de sécurité :</label>
+                        <input type="password" name="Maupassant" id="Maupassant" placeholder="Mot de passe">
+                    </li>
+
+                    <li><label for="card—owner">Nom du titulaire :</label>
+                        <input type="text" name="cardOwner" id="cardOwner" placeholder="Nom du titulaire">
+                    </li>
+                </ol>
+            </div>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="J'achète !">
+        </p>
+    </form>
+</body>
